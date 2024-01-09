@@ -845,6 +845,26 @@
     readdirp "^2.2.1"
     upath "^1.1.1"
 
+"@socket.io/component-emitter@~3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
+
+"@types/cookie@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
+
+"@types/cors@^2.8.12":
+  version "2.8.17"
+  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.17.tgz#5d718a5e494a8166f569d986794e49c48b216b2b"
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*", "@types/node@>=10.0.0":
+  version "20.10.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.7.tgz#40fe8faf25418a75de9fe68a8775546732a3a901"
+  dependencies:
+    undici-types "~5.26.4"
+
 Base64@~0.2.0:
   version "0.2.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/Base64/-/Base64-0.2.1.tgz#ba3a4230708e186705065e66babdd4c35cf60028"
@@ -881,10 +901,6 @@ acorn@^5.5.0:
 acorn@^7.1.1:
   version "7.4.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
-
-after@0.8.2:
-  version "0.8.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
 
 ajv-keywords@^2.1.0:
   version "2.1.1"
@@ -964,6 +980,10 @@ ansi-regex@^5.0.0:
   version "5.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
 
+ansi-regex@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+
 ansi-style-parser@^1.0.1:
   version "1.1.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/ansi-style-parser/-/ansi-style-parser-1.1.0.tgz#70d24afdc78937b54b3077cb95a4e63863802146"
@@ -980,7 +1000,7 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-ansi-styles@^4.0.0:
+ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/ansi-styles/-/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
   dependencies:
@@ -1088,10 +1108,6 @@ array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
 
-arraybuffer.slice@~0.0.7:
-  version "0.0.7"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/arraybuffer.slice/-/arraybuffer.slice-0.0.7.tgz#3bbc4275dd584cc1b10809b89d4e8b63a69e7675"
-
 arrify@^1.0.0:
   version "1.0.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
@@ -1137,17 +1153,23 @@ async-limiter@~1.0.0:
   version "1.0.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
 
-async@1.5.2, async@^1.3.0, async@^1.5.0:
-  version "1.5.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-
 async@^0.9.0:
   version "0.9.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
 
+async@^1.3.0, async@^1.5.0:
+  version "1.5.2"
+  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+
 async@^2.0.1:
   version "2.6.3"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
+  dependencies:
+    lodash "^4.17.14"
+
+async@^2.6.0:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
   dependencies:
     lodash "^4.17.14"
 
@@ -1263,10 +1285,6 @@ babel-runtime@^6.11.6, babel-runtime@^6.6.1, babel-runtime@^6.9.2:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-backo2@1.0.2:
-  version "1.0.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
-
 balanced-match@^0.4.2:
   version "0.4.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
@@ -1279,15 +1297,11 @@ base16@^1.0.0:
   version "1.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/base16/-/base16-1.0.0.tgz#e297f60d7ec1014a7a971a39ebc8a98c0b681e70"
 
-base64-arraybuffer@0.1.4:
-  version "0.1.4"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/base64-arraybuffer/-/base64-arraybuffer-0.1.4.tgz#9818c79e059b1355f97e0428a017c838e90ba812"
-
 base64-js@^1.0.2:
   version "1.5.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
 
-base64id@2.0.0:
+base64id@2.0.0, base64id@~2.0.0:
   version "2.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/base64id/-/base64id-2.0.0.tgz#2770ac6bc47d312af97a8bf9a634342e0cd25cb6"
 
@@ -1347,10 +1361,6 @@ bindings@^1.5.0:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
   dependencies:
     file-uri-to-path "1.0.0"
-
-blob@0.0.5:
-  version "0.0.5"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
 
 block-stream@*:
   version "0.0.9"
@@ -1425,40 +1435,40 @@ browser-stdout@1.3.0:
   version "1.3.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/browser-stdout/-/browser-stdout-1.3.0.tgz#f351d32969d32fa5d7a5567154263d928ae3bd1f"
 
-browser-sync-client@^2.27.5:
-  version "2.27.5"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/browser-sync-client/-/browser-sync-client-2.27.5.tgz#acca1d8d3cf2a212e22e50119c97947772b79ef7"
+browser-sync-client@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/browser-sync-client/-/browser-sync-client-2.29.3.tgz#9300b97f42abc2c4f95ca29b5a9781b5c492f14a"
   dependencies:
     etag "1.8.1"
     fresh "0.5.2"
     mitt "^1.1.3"
-    rxjs "^5.5.6"
 
-browser-sync-ui@^2.27.5:
-  version "2.27.5"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/browser-sync-ui/-/browser-sync-ui-2.27.5.tgz#fe016377edaff7d4a9cb1e8a449cc0807e814884"
+browser-sync-ui@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/browser-sync-ui/-/browser-sync-ui-2.29.3.tgz#35e2ce3b470dce6b7219307cac7278bf324a0f16"
   dependencies:
     async-each-series "0.1.1"
+    chalk "4.1.2"
     connect-history-api-fallback "^1"
     immutable "^3"
     server-destroy "1.0.1"
-    socket.io-client "^2.4.0"
+    socket.io-client "^4.4.1"
     stream-throttle "^0.1.3"
 
 browser-sync@^2.13.0:
-  version "2.27.5"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/browser-sync/-/browser-sync-2.27.5.tgz#9e547645b045f8780d775dc2cc5409357bec6c08"
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.29.3.tgz#c2a3ff00c659eb87a13cae9d7a427e1b4b580ee1"
   dependencies:
-    browser-sync-client "^2.27.5"
-    browser-sync-ui "^2.27.5"
+    browser-sync-client "^2.29.3"
+    browser-sync-ui "^2.29.3"
     bs-recipes "1.3.4"
-    bs-snippet-injector "^2.0.1"
+    chalk "4.1.2"
     chokidar "^3.5.1"
     connect "3.6.6"
     connect-history-api-fallback "^1"
     dev-ip "^1.0.1"
     easy-extender "^2.3.4"
-    eazy-logger "3.1.0"
+    eazy-logger "^4.0.1"
     etag "^1.8.1"
     fresh "^0.5.2"
     fs-extra "3.0.1"
@@ -1467,8 +1477,7 @@ browser-sync@^2.13.0:
     localtunnel "^2.0.1"
     micromatch "^4.0.2"
     opn "5.3.0"
-    portscanner "2.1.1"
-    qs "6.2.3"
+    portscanner "2.2.0"
     raw-body "^2.3.2"
     resp-modifier "6.0.2"
     rx "4.1.0"
@@ -1476,9 +1485,9 @@ browser-sync@^2.13.0:
     serve-index "1.9.1"
     serve-static "1.13.2"
     server-destroy "1.0.1"
-    socket.io "2.4.0"
-    ua-parser-js "^0.7.28"
-    yargs "^15.4.1"
+    socket.io "^4.4.1"
+    ua-parser-js "^1.0.33"
+    yargs "^17.3.1"
 
 browserify-aes@0.4.0:
   version "0.4.0"
@@ -1512,10 +1521,6 @@ browserslist@^4.16.6, browserslist@^4.16.8:
 bs-recipes@1.3.4:
   version "1.3.4"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/bs-recipes/-/bs-recipes-1.3.4.tgz#0d2d4d48a718c8c044769fdc4f89592dc8b69585"
-
-bs-snippet-injector@^2.0.1:
-  version "2.0.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/bs-snippet-injector/-/bs-snippet-injector-2.0.1.tgz#61b5393f11f52559ed120693100343b6edb04dd5"
 
 buffer-from@^1.0.0:
   version "1.1.2"
@@ -1622,6 +1627,13 @@ center-align@^0.1.1:
   dependencies:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
+
+chalk@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
 chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
@@ -1735,20 +1747,20 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
-cliui@^6.0.0:
-  version "6.0.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
-  dependencies:
-    string-width "^4.2.0"
-    strip-ansi "^6.0.0"
-    wrap-ansi "^6.2.0"
-
 cliui@^7.0.2:
   version "7.0.4"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/cliui/-/cliui-7.0.4.tgz#a0265ee655476fc807aea9df3df8df7783808b4f"
   dependencies:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
+
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
 clone-buffer@^1.0.0:
@@ -1890,21 +1902,9 @@ commondir@^1.0.1:
   version "1.0.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
 
-component-bind@1.0.0:
-  version "1.0.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/component-bind/-/component-bind-1.0.0.tgz#00c608ab7dcd93897c0009651b1d3a8e1e73bbd1"
-
-component-emitter@1.2.1:
-  version "1.2.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
-
-component-emitter@^1.2.1, component-emitter@~1.3.0:
+component-emitter@^1.2.1:
   version "1.3.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
-
-component-inherit@0.0.3:
-  version "0.0.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/component-inherit/-/component-inherit-0.0.3.tgz#645fc4adf58b72b649d5cae65135619db26ff143"
 
 compressible@~2.0.16:
   version "2.0.18"
@@ -2036,6 +2036,13 @@ core-util-is@1.0.2:
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
+
+cors@~2.8.5:
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  dependencies:
+    object-assign "^4"
+    vary "^1"
 
 create-react-class@^15.5.1, create-react-class@^15.6.0:
   version "15.7.0"
@@ -2233,11 +2240,11 @@ debug@~3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@~4.1.0:
-  version "4.1.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+debug@~4.3.1, debug@~4.3.2:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   dependencies:
-    ms "^2.1.1"
+    ms "2.1.2"
 
 decamelize@^1.0.0, decamelize@^1.1.2, decamelize@^1.2.0:
   version "1.2.0"
@@ -2341,10 +2348,6 @@ diff@3.2.0:
   version "3.2.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
 
-dlv@^1.1.3:
-  version "1.1.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
-
 doctrine@^2.1.0:
   version "2.1.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/doctrine/-/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
@@ -2381,11 +2384,11 @@ easy-extender@^2.3.4:
   dependencies:
     lodash "^4.17.10"
 
-eazy-logger@3.1.0:
-  version "3.1.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/eazy-logger/-/eazy-logger-3.1.0.tgz#b169eb56df714608fa114f164c8a2956bec9f0f3"
+eazy-logger@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eazy-logger/-/eazy-logger-4.0.1.tgz#2e9fe487fb14ed6ac20d5f01d90dff377d403041"
   dependencies:
-    tfunk "^4.0.0"
+    chalk "4.1.2"
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -2438,42 +2441,34 @@ end-of-stream@~0.1.5:
   dependencies:
     once "~1.3.0"
 
-engine.io-client@~3.5.0:
-  version "3.5.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/engine.io-client/-/engine.io-client-3.5.2.tgz#0ef473621294004e9ceebe73cef0af9e36f2f5fa"
+engine.io-client@~6.5.2:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-6.5.3.tgz#4cf6fa24845029b238f83c628916d9149c399bc5"
   dependencies:
-    component-emitter "~1.3.0"
-    component-inherit "0.0.3"
-    debug "~3.1.0"
-    engine.io-parser "~2.2.0"
-    has-cors "1.1.0"
-    indexof "0.0.1"
-    parseqs "0.0.6"
-    parseuri "0.0.6"
-    ws "~7.4.2"
-    xmlhttprequest-ssl "~1.6.2"
-    yeast "0.1.2"
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.1"
+    engine.io-parser "~5.2.1"
+    ws "~8.11.0"
+    xmlhttprequest-ssl "~2.0.0"
 
-engine.io-parser@~2.2.0:
-  version "2.2.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/engine.io-parser/-/engine.io-parser-2.2.1.tgz#57ce5611d9370ee94f99641b589f94c97e4f5da7"
-  dependencies:
-    after "0.8.2"
-    arraybuffer.slice "~0.0.7"
-    base64-arraybuffer "0.1.4"
-    blob "0.0.5"
-    has-binary2 "~1.0.2"
+engine.io-parser@~5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/engine.io-parser/-/engine.io-parser-5.2.1.tgz#9f213c77512ff1a6cc0c7a86108a7ffceb16fcfb"
 
-engine.io@~3.5.0:
-  version "3.5.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/engine.io/-/engine.io-3.5.0.tgz#9d6b985c8a39b1fe87cd91eb014de0552259821b"
+engine.io@~6.5.2:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.5.4.tgz#6822debf324e781add2254e912f8568508850cdc"
   dependencies:
+    "@types/cookie" "^0.4.1"
+    "@types/cors" "^2.8.12"
+    "@types/node" ">=10.0.0"
     accepts "~1.3.4"
     base64id "2.0.0"
     cookie "~0.4.1"
-    debug "~4.1.0"
-    engine.io-parser "~2.2.0"
-    ws "~7.4.2"
+    cors "~2.8.5"
+    debug "~4.3.1"
+    engine.io-parser "~5.2.1"
+    ws "~8.11.0"
 
 enhanced-resolve@~0.9.0:
   version "0.9.1"
@@ -2996,13 +2991,6 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.1.0:
-  version "4.1.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
-  dependencies:
-    locate-path "^5.0.0"
-    path-exists "^4.0.0"
-
 findup-sync@^2.0.0:
   version "2.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/findup-sync/-/findup-sync-2.0.0.tgz#9326b1488c22d1a6088650a86901b2d9a90a2cbc"
@@ -3503,16 +3491,6 @@ has-bigints@^1.0.1:
   version "1.0.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/has-bigints/-/has-bigints-1.0.1.tgz#64fe6acb020673e3b78db035a5af69aa9d07b113"
 
-has-binary2@~1.0.2:
-  version "1.0.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/has-binary2/-/has-binary2-1.0.3.tgz#7776ac627f3ea77250cfc332dab7ddf5e4f5d11d"
-  dependencies:
-    isarray "2.0.1"
-
-has-cors@1.1.0:
-  version "1.1.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/has-cors/-/has-cors-1.1.0.tgz#5e474793f7ea9843d1bb99c23eef49ff126fff39"
-
 has-flag@^1.0.0:
   version "1.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/has-flag/-/has-flag-1.0.0.tgz#9d9e793165ce017a00f00418c43f942a7b1d11fa"
@@ -3520,6 +3498,10 @@ has-flag@^1.0.0:
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
 
 has-gulplog@^0.1.0:
   version "0.1.0"
@@ -4214,10 +4196,6 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-isarray@2.0.1:
-  version "2.0.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/isarray/-/isarray-2.0.1.tgz#a37d94ed9cda2d59865c9f76fe596ee1f338741e"
-
 isarray@^2.0.5:
   version "2.0.5"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
@@ -4461,12 +4439,6 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
-
-locate-path@^5.0.0:
-  version "5.0.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
-  dependencies:
-    p-locate "^4.1.0"
 
 lodash-es@^4.2.1:
   version "4.17.21"
@@ -5289,7 +5261,7 @@ object-assign@^3.0.0:
   version "3.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
 
-object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -5488,7 +5460,7 @@ p-limit@^1.1.0:
   dependencies:
     p-try "^1.0.0"
 
-p-limit@^2.0.0, p-limit@^2.2.0:
+p-limit@^2.0.0:
   version "2.3.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   dependencies:
@@ -5505,12 +5477,6 @@ p-locate@^3.0.0:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/p-locate/-/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
   dependencies:
     p-limit "^2.0.0"
-
-p-locate@^4.1.0:
-  version "4.1.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
-  dependencies:
-    p-limit "^2.2.0"
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -5555,14 +5521,6 @@ parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
 
-parseqs@0.0.6:
-  version "0.0.6"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/parseqs/-/parseqs-0.0.6.tgz#8e4bb5a19d1cdc844a08ac974d34e273afa670d5"
-
-parseuri@0.0.6:
-  version "0.0.6"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/parseuri/-/parseuri-0.0.6.tgz#e1496e829e3ac2ff47f39a4dd044b32823c4a25a"
-
 parseurl@^1.3.1, parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
@@ -5584,10 +5542,6 @@ path-exists@^2.0.0:
 path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
-
-path-exists@^4.0.0:
-  version "4.0.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -5688,11 +5642,11 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-portscanner@2.1.1:
-  version "2.1.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/portscanner/-/portscanner-2.1.1.tgz#eabb409e4de24950f5a2a516d35ae769343fbb96"
+portscanner@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/portscanner/-/portscanner-2.2.0.tgz#6059189b3efa0965c9d96a56b958eb9508411cf1"
   dependencies:
-    async "1.5.2"
+    async "^2.6.0"
     is-number-like "^1.0.3"
 
 posix-character-classes@^0.1.0:
@@ -6035,10 +5989,6 @@ pure-color@^1.2.0:
 q@^1.1.2, q@^1.4.1:
   version "1.5.1"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-
-qs@6.2.3:
-  version "6.2.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/qs/-/qs-6.2.3.tgz#1cfcb25c10a9b2b483053ff39f5dfc9233908cfe"
 
 qs@6.7.0:
   version "6.7.0"
@@ -6691,12 +6641,6 @@ rx@4.1.0:
   version "4.1.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
-rxjs@^5.5.6:
-  version "5.5.12"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/rxjs/-/rxjs-5.5.12.tgz#6fa61b8a77c3d793dbaf270bee2f43f652d741cc"
-  dependencies:
-    symbol-observable "1.0.1"
-
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -6957,52 +6901,39 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-socket.io-adapter@~1.1.0:
-  version "1.1.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/socket.io-adapter/-/socket.io-adapter-1.1.2.tgz#ab3f0d6f66b8fc7fca3959ab5991f82221789be9"
-
-socket.io-client@2.4.0, socket.io-client@^2.4.0:
-  version "2.4.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/socket.io-client/-/socket.io-client-2.4.0.tgz#aafb5d594a3c55a34355562fc8aea22ed9119a35"
+socket.io-adapter@~2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-2.5.2.tgz#5de9477c9182fdc171cd8c8364b9a8894ec75d12"
   dependencies:
-    backo2 "1.0.2"
-    component-bind "1.0.0"
-    component-emitter "~1.3.0"
-    debug "~3.1.0"
-    engine.io-client "~3.5.0"
-    has-binary2 "~1.0.2"
-    indexof "0.0.1"
-    parseqs "0.0.6"
-    parseuri "0.0.6"
-    socket.io-parser "~3.3.0"
-    to-array "0.1.4"
+    ws "~8.11.0"
 
-socket.io-parser@~3.3.0:
-  version "3.3.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/socket.io-parser/-/socket.io-parser-3.3.2.tgz#ef872009d0adcf704f2fbe830191a14752ad50b6"
+socket.io-client@^4.4.1:
+  version "4.7.3"
+  resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-4.7.3.tgz#b49e006fc1ccaea65229a4b435c083b10439ecc4"
   dependencies:
-    component-emitter "~1.3.0"
-    debug "~3.1.0"
-    isarray "2.0.1"
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.2"
+    engine.io-client "~6.5.2"
+    socket.io-parser "~4.2.4"
 
-socket.io-parser@~3.4.0:
-  version "3.4.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/socket.io-parser/-/socket.io-parser-3.4.1.tgz#b06af838302975837eab2dc980037da24054d64a"
+socket.io-parser@~4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.4.tgz#c806966cf7270601e47469ddeec30fbdfda44c83"
   dependencies:
-    component-emitter "1.2.1"
-    debug "~4.1.0"
-    isarray "2.0.1"
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.1"
 
-socket.io@2.4.0:
-  version "2.4.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/socket.io/-/socket.io-2.4.0.tgz#01030a2727bd8eb2e85ea96d69f03692ee53d47e"
+socket.io@^4.4.1:
+  version "4.7.3"
+  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-4.7.3.tgz#a0f1a4511eb23fe182ae3a018875a31501be3ffc"
   dependencies:
-    debug "~4.1.0"
-    engine.io "~3.5.0"
-    has-binary2 "~1.0.2"
-    socket.io-adapter "~1.1.0"
-    socket.io-client "2.4.0"
-    socket.io-parser "~3.4.0"
+    accepts "~1.3.4"
+    base64id "~2.0.0"
+    cors "~2.8.5"
+    debug "~4.3.2"
+    engine.io "~6.5.2"
+    socket.io-adapter "~2.5.2"
+    socket.io-parser "~4.2.4"
 
 sockjs-client@^1.0.3:
   version "1.5.2"
@@ -7254,6 +7185,14 @@ string-width@^4.1.0, string-width@^4.2.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
+string-width@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
 string.prototype.trimend@^1.0.4:
   version "1.0.4"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/string.prototype.trimend/-/string.prototype.trimend-1.0.4.tgz#e75ae90c2942c63504686c18b287b4a0b1a45f80"
@@ -7301,6 +7240,12 @@ strip-ansi@^6.0.0:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/strip-ansi/-/strip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
   dependencies:
     ansi-regex "^5.0.0"
+
+strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  dependencies:
+    ansi-regex "^5.0.1"
 
 strip-bom-buf@^1.0.0:
   version "1.0.0"
@@ -7398,6 +7343,12 @@ supports-color@^5.3.0, supports-color@^5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^7.1.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  dependencies:
+    has-flag "^4.0.0"
+
 svgo@^0.7.0:
   version "0.7.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
@@ -7409,10 +7360,6 @@ svgo@^0.7.0:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
-
-symbol-observable@1.0.1:
-  version "1.0.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
 
 symbol-observable@^1.0.3:
   version "1.2.0"
@@ -7448,13 +7395,6 @@ text-encoding@^0.6.0:
 text-table@~0.2.0:
   version "0.2.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
-
-tfunk@^4.0.0:
-  version "4.0.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/tfunk/-/tfunk-4.0.0.tgz#de9399feaf2060901d590b7faad80fcd5443077e"
-  dependencies:
-    chalk "^1.1.3"
-    dlv "^1.1.3"
 
 through2@^0.6.1:
   version "0.6.5"
@@ -7509,10 +7449,6 @@ tmp@^0.0.33:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
   dependencies:
     os-tmpdir "~1.0.2"
-
-to-array@0.1.4:
-  version "0.1.4"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/to-array/-/to-array-0.1.4.tgz#17e6c11f73dd4f3d74cda7a4ff3238e9ad9bf890"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -7616,9 +7552,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-ua-parser-js@^0.7.18, ua-parser-js@^0.7.28:
+ua-parser-js@^0.7.18:
   version "0.7.28"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+
+ua-parser-js@^1.0.33:
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.37.tgz#b5dc7b163a5c1f0c510b08446aed4da92c46373f"
 
 uglify-js@~2.6.0:
   version "2.6.4"
@@ -7664,6 +7604,10 @@ uncontrollable@^4.1.0:
 underscore@~1.8.0:
   version "1.8.3"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -7807,7 +7751,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vary@~1.1.2:
+vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
@@ -8152,14 +8096,6 @@ wrap-ansi@^5.1.0:
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
 
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
 wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
@@ -8184,13 +8120,13 @@ ws@^6.0.0:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@~7.4.2:
-  version "7.4.6"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+ws@~8.11.0:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
 
-xmlhttprequest-ssl@~1.6.2:
-  version "1.6.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.6.3.tgz#03b713873b01659dfa2c1c5d056065b27ddc2de6"
+xmlhttprequest-ssl@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-2.0.0.tgz#91360c86b914e67f44dce769180027c0da618c67"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
@@ -8235,16 +8171,13 @@ yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^18.1.2:
-  version "18.1.3"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/yargs-parser/-/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^20.2.2:
   version "20.2.9"
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/yargs-parser/-/yargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
+
+yargs-parser@^21.1.1:
+  version "21.1.1"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
 
 yargs@16.2.0:
   version "16.2.0"
@@ -8273,21 +8206,17 @@ yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@^15.4.1:
-  version "15.4.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
+yargs@^17.3.1:
+  version "17.7.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
   dependencies:
-    cliui "^6.0.0"
-    decamelize "^1.2.0"
-    find-up "^4.1.0"
-    get-caller-file "^2.0.1"
+    cliui "^8.0.1"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
     require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^4.2.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^18.1.2"
+    string-width "^4.2.3"
+    y18n "^5.0.5"
+    yargs-parser "^21.1.1"
 
 yargs@~3.10.0:
   version "3.10.0"
@@ -8297,7 +8226,3 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
-
-yeast@0.1.2:
-  version "0.1.2"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
