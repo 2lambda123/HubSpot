@@ -3,57 +3,57 @@
 ## Tech Stack
 2lambda123/HubSpot is built on the following main stack:
 
-- [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
-- [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
-- [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- [Python](https://www.python.org) – Languages
-- [Java](https://www.java.com) – Languages
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [jQuery](http://jquery.com/) – Javascript UI Libraries
-- [MySQL](http://www.mysql.com) – Databases
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Mustache](http://mustache.github.io/) – Templating Languages & Extensions
+- [ES6](http://www.ecma-international.org/ecma-262/6.0/) – Languages
 - [Handlebars.js](http://handlebarsjs.com/) – Templating Languages & Extensions
-- [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- [Java](https://www.java.com) – Languages
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Mustache](http://mustache.github.io/) – Templating Languages & Extensions
+- [Python](https://www.python.org) – Languages
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
+- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- [Redux](https://redux.js.org/) – State Management Library
+- [RxJava](https://github.com/ReactiveX/RxJava) – Java Tools
 - [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [Stylus](http://stylus-lang.com/) – CSS Pre-processors / Extensions
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Liquibase](https://www.liquibase.com) – Database Tools
-- [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- [JUnit](http://junit.org/) – Testing Frameworks
-- [Mockito](https://site.mockito.org/) – Testing Frameworks
-- [RxJava](https://github.com/ReactiveX/RxJava) – Java Tools
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
-- [FindBugs](http://findbugs.sourceforge.net/) – Code Review
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [SLF4J](http://slf4j.org/) – Log Management
-- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- [Logback](https://logback.qos.ch/) – Log Management
+- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
 - [guava](https://github.com/google/guava) – Java Tools
+- [jQuery](http://jquery.com/) – Javascript UI Libraries
+- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- [reselect](https://github.com/reactjs/reselect) – State Management Library
+- [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
+- [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - [H2 Database](http://www.h2database.com/) – Databases
+- [Liquibase](https://www.liquibase.com) – Database Tools
+- [MySQL](http://www.mysql.com) – Databases
+- [migra](https://migra.djrobstep.com/) – Database Tools
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [Docker Compose](https://github.com/docker/compose) – Container Tools
 - [ESLint](http://eslint.org/) – Code Review
-- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- [GlassFish](https://glassfish.java.net) – Web Servers
-- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- [Redux](https://redux.js.org/) – State Management Library
-- [ES6](http://www.ecma-international.org/ecma-262/6.0/) – Languages
-- [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
-- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [reselect](https://github.com/reactjs/reselect) – State Management Library
-- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- [migra](https://migra.djrobstep.com/) – Database Tools
-- [Dataform](https://dataform.co/) – Business Intelligence
+- [FindBugs](http://findbugs.sourceforge.net/) – Code Review
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [GlassFish](https://glassfish.java.net) – Web Servers
+- [JUnit](http://junit.org/) – Testing Frameworks
+- [Logback](https://logback.qos.ch/) – Log Management
+- [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- [Mockito](https://site.mockito.org/) – Testing Frameworks
+- [SLF4J](http://slf4j.org/) – Log Management
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
+- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- [Dataform](https://dataform.co/) – Business Intelligence
+- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -63,57 +63,57 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/HubSpot is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'/> [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/694/Cloud_Storage.png' alt='Google Cloud Storage'/> [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1142/197655.png' alt='Mustache'/> [Mustache](http://mustache.github.io/) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg' alt='ES6'/> [ES6](http://www.ecma-international.org/ecma-262/6.0/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1143/Handlebars.png' alt='Handlebars.js'/> [Handlebars.js](http://handlebarsjs.com/) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'/> [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1142/197655.png' alt='Mustache'/> [Mustache](http://mustache.github.io/) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='React Hot Loader'/> [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/2190/6407041.png' alt='RxJava'/> [RxJava](https://github.com/ReactiveX/RxJava) – Java Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1172/stylus.png' alt='Stylus'/> [Stylus](http://stylus-lang.com/) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg' alt='Liquibase'/> [Liquibase](https://www.liquibase.com) – Database Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/1528/apache-zookeeper.png' alt='Zookeeper'/> [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg' alt='Mockito'/> [Mockito](https://site.mockito.org/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2190/6407041.png' alt='RxJava'/> [RxJava](https://github.com/ReactiveX/RxJava) – Java Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='React Hot Loader'/> [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg' alt='FindBugs'/> [FindBugs](http://findbugs.sourceforge.net/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='Logback'/> [Logback](https://logback.qos.ch/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/2970/wBjKn0ol.png' alt='guava'/> [guava](https://github.com/google/guava) – Java Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/7757/13142323.png' alt='reselect'/> [reselect](https://github.com/reactjs/reselect) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'/> [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/694/Cloud_Storage.png' alt='Google Cloud Storage'/> [Google Cloud Storage](https://cloud.google.com/products/cloud-storage/) – Cloud Storage
 - <img width='25' height='25' src='https://img.stackshare.io/service/3105/h2-logo_square_400x400.png' alt='H2 Database'/> [H2 Database](http://www.h2database.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg' alt='Liquibase'/> [Liquibase](https://www.liquibase.com) – Database Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='migra'/> [migra](https://migra.djrobstep.com/) – Database Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg' alt='GlassFish'/> [GlassFish](https://glassfish.java.net) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg' alt='ES6'/> [ES6](http://www.ecma-international.org/ecma-262/6.0/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png' alt='Q'/> [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/7757/13142323.png' alt='reselect'/> [reselect](https://github.com/reactjs/reselect) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='migra'/> [migra](https://migra.djrobstep.com/) – Database Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11236/Group_22__3_.png' alt='Dataform'/> [Dataform](https://dataform.co/) – Business Intelligence
+- <img width='25' height='25' src='https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg' alt='FindBugs'/> [FindBugs](http://findbugs.sourceforge.net/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg' alt='GlassFish'/> [GlassFish](https://glassfish.java.net) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='Logback'/> [Logback](https://logback.qos.ch/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg' alt='Mockito'/> [Mockito](https://site.mockito.org/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/1528/apache-zookeeper.png' alt='Zookeeper'/> [Zookeeper](http://zookeeper.apache.org/) – Open Source Service Discovery
+- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/11236/Group_22__3_.png' alt='Dataform'/> [Dataform](https://dataform.co/) – Business Intelligence
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png' alt='Q'/> [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'/> [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -124,7 +124,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/HubSpot](https://github.com/2lambda123/HubSpot)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|200<br/>Tools used|01/09/24 <br/>Report generated|
+|200<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
